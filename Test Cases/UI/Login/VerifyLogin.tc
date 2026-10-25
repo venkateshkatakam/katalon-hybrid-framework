@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Happy-path login to OrangeHRM and dashboard verification.</description>
+   <name>VerifyLogin</name>
+   <tag>Smoke</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>venkatesh katakam</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>cc919721-7a70-4476-a628-1eb1181c5844</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>92d13e15-aa56-404b-bc21-f2c482f51f58</testCaseGuid>
+</TestCaseEntity>

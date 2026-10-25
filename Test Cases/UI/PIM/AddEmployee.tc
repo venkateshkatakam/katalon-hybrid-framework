@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddEmployee</name>
+   <tag>GenAI</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>venkatesh katakam</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>venkatesh katakam</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>cc919721-7a70-4476-a628-1eb1181c5844</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>cc919721-7a70-4476-a628-1eb1181c5844</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cd4d0a81-1c7e-4948-a75b-829543d6af25</testCaseGuid>
+</TestCaseEntity>

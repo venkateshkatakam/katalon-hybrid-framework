@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+
+# Katalon generated files
+bin/
+Reports/
+output/*
+!output/.gitkeep
+
+# Local Katalon/project settings
+settings/
+.cache/
+
+# Eclipse/project metadata
+.classpath
+.project
+.settings/
+
+# SVN metadata
+.svn/
+
+# Optional: ignore Katalon libraries
+Libs/
