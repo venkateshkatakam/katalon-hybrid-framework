@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>EmployeeCRUD</name>
+   <name>Hybrid-EmployeeCRUD</name>
    <tag>Sanity</tag>
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
          <entry>
-            <key>createdByName</key>
-            <value>venkatesh katakam</value>
-         </entry>
-         <entry>
             <key>lastModifiedByName</key>
             <value>venkatesh katakam</value>
-         </entry>
-         <entry>
-            <key>createdByUuid</key>
-            <value>cc919721-7a70-4476-a628-1eb1181c5844</value>
          </entry>
          <entry>
             <key>lastModifiedByUuid</key>
@@ -27,5 +19,5 @@
    </integratedEntity>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>88a2b290-9a3c-48c0-89e9-aa21a7e60fd7</testCaseGuid>
+   <testCaseGuid>99c770a6-d80d-4e2c-9224-d3b465b31f99</testCaseGuid>
 </TestCaseEntity>

@@ -37,6 +37,16 @@ public class EmployeeApiKeywords {
 	}
 
 	@Keyword
+	def createEmployeeAndReturnEmpNumber(firstName, middleName, lastName, employeeId){
+
+		def response = createEmployee(firstName, middleName, lastName, employeeId)
+
+		def json = new JsonSlurper().parseText(response.getResponseText())
+
+		return json.data.empNumber
+	}
+
+	@Keyword
 	def deleteEmployee(empNumber){
 
 		return WS.sendRequest(findTestObject('API/Employee/DeleteEmployee',

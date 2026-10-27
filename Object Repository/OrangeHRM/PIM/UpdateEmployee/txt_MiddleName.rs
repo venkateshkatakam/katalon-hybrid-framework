@@ -8,7 +8,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder='Middle Name']</value>
+         <value>//input[@name='middleName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
