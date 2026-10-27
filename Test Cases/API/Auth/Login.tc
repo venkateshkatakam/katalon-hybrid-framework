@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CreateEmployee</name>
+   <name>Login</name>
    <tag></tag>
    <integratedEntity>
       <productName>TESTOPS</productName>
@@ -27,5 +27,5 @@
    </integratedEntity>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>02318bd4-2ebb-4c49-b2bf-1630cb49cafe</testCaseGuid>
+   <testCaseGuid>7dcb91e1-6298-46f5-9ddf-94df1e1dadb9</testCaseGuid>
 </TestCaseEntity>
