@@ -8,7 +8,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[normalize-space()='Last Name']/ancestor::div[contains(@class,'oxd-input-group')]//input</value>
+         <value>//input[@name='lastName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

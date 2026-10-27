@@ -7,11 +7,10 @@ CustomKeywords.'common.ApplicationKeywords.launchApplication'(GlobalVariable.URL
 
 CustomKeywords.'auth.LoginKeywords.login'(GlobalVariable.USERNAME, GlobalVariable.PASSWORD)
 
-def response = CustomKeywords.'api.EmployeeApiKeywords.createEmployee'('SaiKeerthi', 'Test', 'Last', 'EMP133')
+def employeeId = 'E' + new Random().nextInt(9000)
 
-println("Create employee response:")
-
-println(response.getResponseText())
+def response = CustomKeywords.'api.EmployeeApiKeywords.createEmployee'(GlobalVariable.FIRSTNAME, GlobalVariable.MIDDLENAME, 
+    GlobalVariable.LASTNAME, employeeId)
 
 WS.verifyResponseStatusCode(response, 200)
 
